@@ -15,6 +15,11 @@ function Home() {
             FORMS
           </button>
         </Link>
+        <Link to="/requisition">
+          <button>
+            REQUISITION
+          </button>
+        </Link>
       </section>
   )
 }

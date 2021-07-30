@@ -1,11 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
 import counter from './slices/counter';
 import forms from './slices/forms';
+import requisition from './slices/requisition';
 
 export const store = configureStore({
   reducer: {
     counter,
     forms,
+    requisition,
   },
 });
 
