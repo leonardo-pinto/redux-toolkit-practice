@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { increment, decrement, incrementByAmount } from '../redux/slices/counter';
 
@@ -23,6 +24,9 @@ function Counter() {
           <input type="text" onChange={ handleIncrementByAmount }/>
         </span>
       </section>
+      <Link to="/">
+        Home
+      </Link>
     </div>
   )
 }
